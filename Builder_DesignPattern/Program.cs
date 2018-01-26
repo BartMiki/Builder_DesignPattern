@@ -20,7 +20,7 @@ namespace Builder_DesignPattern
 
         public CodeBuilder AddField(String fieldName, String typeName)
         {
-            code.Append($"  public {typeName} {fieldName};\n");
+            code.Append($"  public {typeName} {fieldName}").Append(" { get; set; }\n");
             return this;
         }
 
@@ -36,7 +36,7 @@ namespace Builder_DesignPattern
     {
         static void Main(string[] args)
         {
-            var cb = new CodeBuilder("Person").AddField("Name", "string").AddField("Age", "int");
+            var cb = new CodeBuilder("Person").AddField("Name", "string").AddField("Age", "int").AddField("Salary","float");
             Console.WriteLine(cb);
         }
     }
