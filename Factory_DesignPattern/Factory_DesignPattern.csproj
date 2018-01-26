@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FE306A40-A36B-461D-83C4-FCF903EDD715}</ProjectGuid>
+    <ProjectGuid>{77D42AF9-EBDB-4DCB-BC95-2DF7C42266F7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Builder_DesignPattern</RootNamespace>
-    <AssemblyName>Builder_DesignPattern</AssemblyName>
+    <RootNamespace>Factory_DesignPattern</RootNamespace>
+    <AssemblyName>Factory_DesignPattern</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CodeBuilder.cs" />
+    <Compile Include="Person.cs" />
+    <Compile Include="PersonFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
