@@ -7,24 +7,6 @@ using System.Threading.Tasks;
 
 namespace Adapter_DesignPattern
 {
-    public interface IRectangle
-    {
-        int Width { get; }
-        int Height { get; }
-    }
-
-    public class SquareToRectangleAdapter : IRectangle
-    {
-        public int Width { get; }
-
-        public int Height { get; }
-
-        public SquareToRectangleAdapter(Square square)
-        {
-            Width = Height = square.Side;
-        }
-    }
-
     class Program
     {
         static void Main(string[] args)

@@ -28,22 +28,27 @@ namespace Decorator_DesignPattern
 
     public class Dragon // no need for interfaces
     {
-        private Lizard lizard = new Lizard();
-        private Bird bird = new Bird();
+        private Lizard _lizard = new Lizard();
+        private Bird _bird = new Bird();
 
         public int Age
         {
-            // todo :)
+            get { return _bird.Age; }
+            set
+            {
+                _bird.Age = value;
+                _lizard.Age = value;
+            }
         }
 
         public string Fly()
         {
-            // todo
+            return _bird.Fly();
         }
 
         public string Crawl()
         {
-            // todo
+            return _lizard.Crawl();
         }
     }
 
@@ -51,7 +56,14 @@ namespace Decorator_DesignPattern
     {
         static void Main(string[] args)
         {
+            var dragon = new Dragon();
+            for (int i = 0; i < 3; i++)
+            {
+                dragon.Age = 5 * i;
+                Console.WriteLine($"Dragon's age:{dragon.Age}. Can fly? {dragon.Fly()}. Can crawl? {dragon.Crawl()}.");
+            }
 
+            Console.ReadLine();
         }
     }
 }
