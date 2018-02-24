@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DCF65263-645A-4E2D-80EE-11B4B19AC176}</ProjectGuid>
+    <ProjectGuid>{E7C8AEA9-EBA2-4175-89E9-35F6BA8C2B75}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Decorator_DesignPattern</RootNamespace>
-    <AssemblyName>Decorator_DesignPattern</AssemblyName>
+    <RootNamespace>Flyweight_DesignPattern</RootNamespace>
+    <AssemblyName>Flyweight_DesignPattern</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,11 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bird.cs" />
-    <Compile Include="Dragon.cs" />
-    <Compile Include="Lizard.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sentence.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
