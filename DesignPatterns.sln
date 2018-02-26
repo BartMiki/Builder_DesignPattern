@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.0
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder_DesignPattern", "Builder_DesignPattern\Builder_DesignPattern.csproj", "{FE306A40-A36B-461D-83C4-FCF903EDD715}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator_DesignPattern", "Decorator_DesignPattern\Decorator_DesignPattern.csproj", "{DCF65263-645A-4E2D-80EE-11B4B19AC176}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight_DesignPattern", "Flyweight_DesignPattern\Flyweight_DesignPattern.csproj", "{E7C8AEA9-EBA2-4175-89E9-35F6BA8C2B75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy_DesignPattern", "Proxy_DesignPattern\Proxy_DesignPattern.csproj", "{84A82FC8-171A-4C45-8D5A-123109F845CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{E7C8AEA9-EBA2-4175-89E9-35F6BA8C2B75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7C8AEA9-EBA2-4175-89E9-35F6BA8C2B75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7C8AEA9-EBA2-4175-89E9-35F6BA8C2B75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84A82FC8-171A-4C45-8D5A-123109F845CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84A82FC8-171A-4C45-8D5A-123109F845CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84A82FC8-171A-4C45-8D5A-123109F845CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84A82FC8-171A-4C45-8D5A-123109F845CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
