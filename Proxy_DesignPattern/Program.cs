@@ -11,6 +11,7 @@ namespace Proxy_DesignPattern
         static void Main(string[] args)
         {
             var p = new Person();
+
             p.Age = 14;
             ResponsiblePerson rp = new ResponsiblePerson(p);
             Console.WriteLine(rp.Drink());
