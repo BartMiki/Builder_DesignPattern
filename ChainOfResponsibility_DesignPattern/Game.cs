@@ -2,12 +2,9 @@
 
 namespace ChainOfResponsibility_DesignPattern
 {
-    partial class Program
+    public class Game
     {
-        public class Game
-        {
-            public IList<Creature> Creatures;
-            public Game() => Creatures = new List<Creature>();
-        }
+        public IList<Creature> Creatures;
+        public Game() => Creatures = new List<Creature>();
     }
 }
